@@ -1,0 +1,7 @@
+requests
+pandas
+openpyxl
+xlsxwriter
+msal
+streamlit
+pywin32

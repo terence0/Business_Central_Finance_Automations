@@ -1,0 +1,3 @@
+# Windows batch files fail in odd ways with LF line endings: always check them out as CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf

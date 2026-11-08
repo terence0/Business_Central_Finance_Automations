@@ -1,0 +1,22 @@
+{
+  "id": "9a974853-4656-431d-8278-5dd120d573f4",
+  "name": "GL Setup API",
+  "publisher": "Terence Matasva",
+  "version": "1.0.0.1",
+  "brief": "API for updating General Ledger Setup",
+  "description": "Writable API endpoint for Allow Posting From automation",
+  "platform": "26.0.0.0",
+  "application": "26.5.0.0",
+  "runtime": "15.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
+}

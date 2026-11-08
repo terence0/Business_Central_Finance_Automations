@@ -1,0 +1,22 @@
+{
+  "id": "555520f2-3133-4829-a2c3-911e46bc95c8",
+  "name": "Fiscal Year Close Automation",
+  "publisher": "Terence Matasva",
+  "version": "1.0.0.10",
+  "brief": "Automates fiscal year close and the Close Income Statement posting.",
+  "description": "Closes due fiscal years, creates the income statement closing journal to retained earnings, and optionally posts it, from a recurring Job Queue entry.",
+  "platform": "26.0.0.0",
+  "application": "26.5.0.0",
+  "runtime": "15.0",
+  "idRanges": [
+    {
+      "from": 68300,
+      "to": 68340
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
+}

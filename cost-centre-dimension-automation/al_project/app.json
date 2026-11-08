@@ -1,0 +1,23 @@
+{
+  "id": "a010e8b4-565c-4178-a485-d370483569d1",
+  "name": "Cost Centre Dimension Automation API",
+  "publisher": "Terence Matasva",
+  "version": "1.0.0.0",
+  "brief": "APIs for Cost Centre dimension automation",
+  "description": "API pages for creating Cost Centre dimension values and default dimension rules",
+  "platform": "26.0.0.0",
+  "application": "26.5.0.0",
+  "runtime": "15.0",
+  "target": "Cloud",
+  "idRanges": [
+    {
+      "from": 50150,
+      "to": 50199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
+}

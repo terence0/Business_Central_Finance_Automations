@@ -1,0 +1,19 @@
+{
+  "api": {
+    "base_url": "https://api.businesscentral.dynamics.com/v2.0",
+    "tenant_id": "<your-tenant-id>",
+    "environment_name": "Production",
+    "type": "ODataV4",
+    "client_id": "<your-app-registration-client-id>",
+    "client_secret": "<your-client-secret - never commit the real one>",
+    "scope": "https://api.businesscentral.dynamics.com/.default",
+    "grant_type": "client_credentials",
+    "token_url": "https://login.microsoftonline.com/<your-tenant-id>/oauth2/v2.0/token",
+    "base_api": "https://api.businesscentral.dynamics.com/v2.0/<your-tenant-id>/Production/ODataV4/"
+  },
+  "company": {
+    "Contoso UK": "Company('Contoso%20UK%20Ltd')",
+    "Contoso USA": "Company('Contoso%20USA')",
+    "Contoso Japan": "Company('Contoso%20Japan')"
+  }
+}

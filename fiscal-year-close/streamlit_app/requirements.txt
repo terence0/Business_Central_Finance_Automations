@@ -1,0 +1,5 @@
+streamlit>=1.57
+requests>=2.32
+msal>=1.30
+python-dotenv>=1.0
+pandas>=2.2
